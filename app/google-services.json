@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "210331674979",
+    "firebase_url": "https://astro-dating-49d7a.firebaseio.com",
+    "project_id": "astro-dating-49d7a",
+    "storage_bucket": "astro-dating-49d7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210331674979:android:857b6e51112c3fc8",
+        "android_client_info": {
+          "package_name": "com.example.irina.astro_dating_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210331674979-cgangs9disli1sibc35kj2nrg6l2kmpi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.irina.astro_dating_project",
+            "certificate_hash": "2752c7619167e836bf603bbc02a47972f3181122"
+          }
+        },
+        {
+          "client_id": "210331674979-596qru3t4iddd9eti0njjoa94f7tvqqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmWOn2oDTgYeJJX5g0ndicl2J0vrXeCPs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210331674979-596qru3t4iddd9eti0njjoa94f7tvqqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

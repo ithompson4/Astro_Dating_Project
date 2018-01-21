@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fname"/>
+
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_style"
+            android:inputType="text"
+            android:minHeight="30dip"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lname"/>
+
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_style"
+            android:inputType="text"
+            android:minHeight="30dip"/>
+
+        <LinearLayout
+            android:id="@+id/register_sex"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <RadioGroup android:id="@+id/group_1"
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorAccent"
+                    android:text="@string/male"
+                    android:textColor="#686868"/>
+
+                <RadioButton
+                    android:id="@+id/radio_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorAccent"
+                    android:checked="true"
+                    android:text="@string/female"
+                    android:textColor="#686868"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/height"/>
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_style"
+            android:inputType="numberDecimal"
+            android:minHeight="30dip"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/weight"/>
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_style"
+            android:inputType="numberDecimal"
+            android:minHeight="30dip"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hobby"/>
+
+        <EditText
+            android:id="@+id/hobby"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_style"
+            android:inputType="text"
+            android:minHeight="30dip"/>
+
+        <LinearLayout
+            android:id="@+id/register_sign"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <RadioGroup android:id="@+id/group_2"
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_aries"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:width="100dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:checked="true"
+                    android:drawableTop="@drawable/sign1"
+                    android:text="@string/aries1"
+                    android:textColor="#686868"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_aries"
+                    android:text="@string/aries"/>
+
+                <RadioButton
+                    android:id="@+id/radio_taurus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:width="100dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:drawableTop="@drawable/sign2"
+                    android:text="@string/taurus1"
+                    android:textColor="#686868"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_taurus"
+                    android:text="@string/taurus"/>
+
+                <RadioButton
+                    android:id="@+id/radio_gemini"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:width="100dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:drawableTop="@drawable/sign3"
+                    android:text="@string/gemini1"
+                    android:textColor="#686868"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_gemini"
+                    android:text="@string/gemini"/>
+
+                <RadioButton
+                    android:id="@+id/radio_cancer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:width="100dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:drawableTop="@drawable/sign4"
+                    android:text="@string/cancer1"
+                    android:textColor="#686868"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_cancer"
+                    android:text="@string/cancer"/>
+
+                <RadioButton
+                    android:id="@+id/radio_leo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:width="100dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:drawableTop="@drawable/sign5"
+                    android:text="@string/leo1"
+                    android:textColor="#686868"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_leo"
+                    android:text="@string/leo"/>
+
+                <RadioButton
+                    android:id="@+id/radio_virgo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:width="100dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:drawableTop="@drawable/sign6"
+                    android:text="@string/virgo1"
+                    android:textColor="#686868"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_virgo"
+                    android:text="@string/vigro"/>
+
+                <RadioButton
+                    android:id="@+id/radio_libra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:width="100dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:drawableTop="@drawable/sign7"
+                    android:text="@string/libra1"
+                    android:textColor="#686868"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_libra"
+                    android:text="@string/libra"/>
+
+                <RadioButton
+                    android:id="@+id/radio_scorpio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:width="100dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:drawableTop="@drawable/sign8"
+                    android:text="@string/scorpio1"
+                    android:textColor="#686868"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_scorpio"
+                    android:text="@string/scorpio"/>
+
+                <RadioButton
+                    android:id="@+id/radio_sagittarius"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:width="100dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:drawableTop="@drawable/sign9"
+                    android:text="@string/sagittarius1"
+                    android:textColor="#686868"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_sagittarius"
+                    android:text="@string/sagittarius"/>
+
+                <RadioButton
+                    android:id="@+id/radio_capricorn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:width="100dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:drawableTop="@drawable/sign10"
+                    android:text="@string/capricorn1"
+                    android:textColor="#686868"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_capricorn"
+                    android:text="@string/capricorn"/>
+
+                <RadioButton
+                    android:id="@+id/radio_aquarius"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:width="100dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:drawableTop="@drawable/sign11"
+                    android:text="@string/aquarius1"
+                    android:textColor="#686868"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_aquarius"
+                    android:text="@string/aquarius"/>
+
+                <RadioButton
+                    android:id="@+id/radio_pisces"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:width="100dp"
+                    android:buttonTint="@color/colorAccent"
+                    android:drawableTop="@drawable/sign12"
+                    android:text="@string/pisces1"
+                    android:textColor="#686868"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/radio_pisces"
+                    android:text="@string/pisces"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <!--  Edit Button -->
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/edit"/>
+
+    </LinearLayout>
+
+</ScrollView>

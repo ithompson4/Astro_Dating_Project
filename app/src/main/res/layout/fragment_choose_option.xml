@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/welcome"/>
+
+    <RadioGroup android:id="@+id/group_2"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_opt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorAccent"
+            android:checked="true"
+            android:text="@string/opt1"
+            android:textColor="#686868"/>
+
+        <RadioButton
+            android:id="@+id/radio_opt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorAccent"
+            android:text="@string/opt2"
+            android:textColor="#686868"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/result_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:text="@string/result_warning"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/option_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/searchOption"/>
+
+</LinearLayout>

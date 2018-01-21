@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_result2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:text="@string/second_result"
+            android:textSize="20dp"/>
+
+        <RadioGroup android:id="@+id/radio_group_3"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_aries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="100dp"
+                android:buttonTint="@color/colorAccent"
+                android:checked="true"
+                android:drawableTop="@drawable/sign1"
+                android:text="@string/aries1"
+                android:textColor="#686868"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radio_aries"
+                android:layout_gravity="center"
+                android:text="@string/aries"/>
+
+            <RadioButton
+                android:id="@+id/radio_taurus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="100dp"
+                android:buttonTint="@color/colorAccent"
+                android:drawableTop="@drawable/sign2"
+                android:text="@string/taurus1"
+                android:textColor="#686868"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radio_taurus"
+                android:layout_gravity="center"
+                android:text="@string/taurus"/>
+
+            <RadioButton
+                android:id="@+id/radio_gemini"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="100dp"
+                android:buttonTint="@color/colorAccent"
+                android:drawableTop="@drawable/sign3"
+                android:text="@string/gemini1"
+                android:textColor="#686868"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radio_gemini"
+                android:layout_gravity="center"
+                android:text="@string/gemini"/>
+
+            <RadioButton
+                android:id="@+id/radio_cancer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="100dp"
+                android:buttonTint="@color/colorAccent"
+                android:drawableTop="@drawable/sign4"
+                android:text="@string/cancer1"
+                android:textColor="#686868"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radio_cancer"
+                android:layout_gravity="center"
+                android:text="@string/cancer"/>
+
+            <RadioButton
+                android:id="@+id/radio_leo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="100dp"
+                android:buttonTint="@color/colorAccent"
+                android:drawableTop="@drawable/sign5"
+                android:text="@string/leo1"
+                android:textColor="#686868"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radio_leo"
+                android:layout_gravity="center"
+                android:text="@string/leo"/>
+
+            <RadioButton
+                android:id="@+id/radio_virgo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="100dp"
+                android:buttonTint="@color/colorAccent"
+                android:drawableTop="@drawable/sign6"
+                android:text="@string/virgo1"
+                android:textColor="#686868"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radio_virgo"
+                android:layout_gravity="center"
+                android:text="@string/vigro"/>
+
+            <RadioButton
+                android:id="@+id/radio_libra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="100dp"
+                android:buttonTint="@color/colorAccent"
+                android:drawableTop="@drawable/sign7"
+                android:text="@string/libra1"
+                android:textColor="#686868"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radio_libra"
+                android:layout_gravity="center"
+                android:text="@string/libra"/>
+
+            <RadioButton
+                android:id="@+id/radio_scorpio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="100dp"
+                android:buttonTint="@color/colorAccent"
+                android:drawableTop="@drawable/sign8"
+                android:text="@string/scorpio1"
+                android:textColor="#686868"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radio_scorpio"
+                android:layout_gravity="center"
+                android:text="@string/scorpio"/>
+
+            <RadioButton
+                android:id="@+id/radio_sagittarius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="100dp"
+                android:buttonTint="@color/colorAccent"
+                android:drawableTop="@drawable/sign9"
+                android:text="@string/sagittarius1"
+                android:textColor="#686868"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radio_sagittarius"
+                android:layout_gravity="center"
+                android:text="@string/sagittarius"/>
+
+            <RadioButton
+                android:id="@+id/radio_capricorn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="100dp"
+                android:buttonTint="@color/colorAccent"
+                android:drawableTop="@drawable/sign10"
+                android:text="@string/capricorn1"
+                android:textColor="#686868"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radio_capricorn"
+                android:layout_gravity="center"
+                android:text="@string/capricorn"/>
+
+            <RadioButton
+                android:id="@+id/radio_aquarius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="100dp"
+                android:buttonTint="@color/colorAccent"
+                android:drawableTop="@drawable/sign11"
+                android:text="@string/aquarius1"
+                android:textColor="#686868"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radio_aquarius"
+                android:layout_gravity="center"
+                android:text="@string/aquarius"/>
+
+            <RadioButton
+                android:id="@+id/radio_pisces"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="100dp"
+                android:buttonTint="@color/colorAccent"
+                android:drawableTop="@drawable/sign12"
+                android:text="@string/pisces1"
+                android:textColor="#686868"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radio_pisces"
+                android:layout_gravity="center"
+                android:text="@string/pisces"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/getBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/match2"/>
+
+        <TextView
+            android:id="@+id/sign_result2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+</ScrollView>
+
+
